@@ -42,7 +42,7 @@ function App() {
   return (
     <div>
       <Header />
-      <div className="px-12 flex">
+      <div className="px-12 flex max-lg:flex-col max-lg:px-4">
         <Sidebar topAnime={topAnime} />
         <MainContent
           handleSearch={handleSearch}

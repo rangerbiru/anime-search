@@ -3,7 +3,7 @@ import AnimeCards from "./AnimeCards";
 
 const MainContent = (props) => {
   return (
-    <main className="w-full flex flex-col gap-5">
+    <main className="w-full flex flex-col gap-5 max-lg:mt-10">
       <form onSubmit={props.handleSearch}>
         <input
           type="search"
